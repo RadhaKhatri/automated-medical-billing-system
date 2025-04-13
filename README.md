@@ -6,11 +6,43 @@ The **Automated Medical Billing System** is a desktop application built using **
 
 ## 📁 Project Structure
 
-medical_shop/ │── main.py # Entry point (opens the dashboard) │── auth.py # User authentication │── db.py # MySQL database connection │── inventory_manager.py # Inventory management (CRUD) │── billing.py # Billing & sales logic │── reports.py # Generate sales & GST reports │── email_fetch.py # Fetch billing PDFs from email │ │── ui/ # UI components │ │── dashboard.py # Main dashboard UI │ │── inventory_ui.py # Inventory UI │ │── billing_ui.py # Billing UI │ │── reports_ui.py # Reports UI │ │── assets/ # Media files │ │── icon.ico # App icon │ │── logo.png # App logo │ │── requirements.txt # Python package requirements └── README.md # Project documentation
 
-sql
-Copy
-Edit
+medical_shop/
+│── main.py   # Entry point of the application( This file will start the application and open the dashboard.) 
+
+│── auth.py      
+
+│── db.py                  # Database connection file	
+
+│── inventory_manager.py           # Inventory Management (CRUD)
+
+│── billing.py             # Billing & Sales Management
+
+│── reports.py             # Sales & GST Reports
+
+│── email_fetch.py         # Fetch PDFs from Email
+
+│── ui/	
+
+│   │── dashboard.py       # Dashboard UI (This file will contain the main window of the app. )
+
+│   │── inventory_ui.py    # Inventory UI
+
+│   │── billing_ui.py      # Billing UI
+
+│   │── reports_ui.py      # Reports UI
+
+│── assets/
+
+│   │── icon.ico           # App icon
+
+│   │── logo.png           # App logo
+
+│── requirements.txt       # List of required libraries
+
+└── README.md              # Project documentation
+
+
 
 
 ---
@@ -144,10 +176,10 @@ CREATE TABLE settings (
 
 ___________________________________________________________________________________________________________________________________
 
-##🚀 Getting Started
+## 🚀 Getting Started
 
 _____________________________________________________________________
-##Prerequisites
+## Prerequisites
 Python 3.10+
 
 MySQL Server
@@ -155,13 +187,13 @@ MySQL Server
 Recommended: Virtual Environment
 
 ______________________________________________________________________
-##Run the App
+## Run the App
 
 python main.py
 
 _______________________________________________________________________
 
-##🙋‍♂️ Author
+## 🙋‍♂️ Author
 Developed by #Radha Khatri
 🚀 Co-Lead, Cloud & Open Source @ GDGC ADCET
 📫 Contact: beactive1474@gmail.com
